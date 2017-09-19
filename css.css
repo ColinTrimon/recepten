@@ -3,13 +3,41 @@ body{
   background-size: cover;
 }
 
+/*
 *{
   font-family: sans-serif;
   font-style: italic;
-  font-size: 20px;
+  font-size: 15px;
   font-weight: 900;
-
-  /* Letter-spacing haalt de letters verderweg of dichterbij elkaar. */
-  letter-spacing: 1.2px;
   text-align: center;
+*/
+}
+
+section#left {
+  float: left;
+  width: 50%;
+}
+
+section#right {
+  float: right;
+  width: 50%;
+}
+
+
+h1, h3{
+  font-family: sans-serif;
+  font-style: italic;
+  font-size: 15px;
+  font-weight: 900;
+  text-align: center;
+}
+
+p{
+  font-family: Helvetica;
+  text-align: center;
+}
+
+a{
+  font-family: helvetica;
+  font-size: 18px;
 }
